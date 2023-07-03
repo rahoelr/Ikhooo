@@ -1,0 +1,52 @@
+body {
+    background-color: #1B1535;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-item {
+    position: relative;
+  }
+  
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      flex: 0 0 calc(33.33% - 20px);
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .card:last-child {
+      margin-right: 0;
+    }
+  }
+
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; Adjust as needed */
+  }
+  
+  
